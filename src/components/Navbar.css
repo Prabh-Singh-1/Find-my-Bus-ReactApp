@@ -1,0 +1,7 @@
+.nav-opt div ul li a{
+    padding: 0px 15px;
+}
+.nav-opt div ul li:hover{
+    background-color: rgb(40, 107, 249);
+    transition: all 0.3s;
+}

@@ -1,0 +1,36 @@
+/* src/ShowTimeTable.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+  }
+  
+  .container > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .time, .BusName, .startAndDestination {
+    margin-bottom: 5px;
+  }
+  
+  .IntermediateStops ul {
+    margin-top: 5px;
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  
+  .IntermediateStops a {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
+  
